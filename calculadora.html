@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="calculadora.css">
+    <script src="script.js"></script>
+    <title>Calculadora de Porcentaje</title>
+</head>
+<body>
+    <div class="calculator">
+        <h1>Calculadora de Porcentaje</h1>
+        <div>
+            <label for="base">Número base:</label>
+            <input type="number" id="base" required>
+        </div>
+        <div>
+            <label for="porcentaje">Porcentaje:</label>
+            <input type="number" id="porcentaje" required>
+        </div>
+        <button onclick="calcular()">Calcular</button>
+        <div id="resultado">
+            <!-- El resultado se mostrará aquí -->
+        </div>
+    </div>
+</body>
+</html>
